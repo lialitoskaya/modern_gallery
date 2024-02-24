@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   font-size: calc((1vh + 1vw) * 0.8);
@@ -40,8 +39,7 @@ header {
   width: 40vw;
   padding-left: 15px;
   position: absolute;
-  left: 0;
-  top: 0;
+  z-index: 1;
 }
 .general {
   padding-left: 1vw;
@@ -63,6 +61,7 @@ footer {
 }
 
 .description {
+  position: relative;
   width: 100%;
 }
 
@@ -109,7 +108,7 @@ body {
 .text-card {
   display: flex;
   justify-content: flex-end;
-  flex-basis: 600px;
+  width: 35vw;
 }
 
 .video {
@@ -117,7 +116,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 50vw;
+  width: 35vw;
 }
 
 .vertical {
@@ -130,7 +129,7 @@ img:hover {
   transform: scale(1.2);
 }
 .photo-card div:last-child {
-  margin-left: 9vw;
+  margin-left: 5vw;
 }
 
 video {
