@@ -37,7 +37,7 @@ header {
   line-height: 1.7;
   font-size: calc((1vh + 1vw) * 1);
   width: 40vw;
-  padding-left: 15px;
+  padding-left: 1vw;
   position: absolute;
   z-index: 1;
 }
