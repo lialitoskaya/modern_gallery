@@ -24,3 +24,5 @@ window.document.onscroll = function () {
   });
   zvals = [];
 };
+
+document.querySelectorAll('video').forEach((t) => t.addEventListener('click', (e) => {e.target.play(); console.log(e.target)}));
