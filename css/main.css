@@ -28,7 +28,6 @@
   src: url(../fonts/Unbounded-Bold.ttf);
 }
 
-
 body,
 .gallery,
 footer,
@@ -50,7 +49,8 @@ img {
   border-bottom: 1px solid black;
 }
 
-.header, p{
+.header,
+p {
   font-weight: 100;
 }
 
@@ -107,7 +107,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.50s cubic-bezier(0.075, 0.07, 1, 1), opacity 0.50s linear;
+  transition: 0.5s cubic-bezier(0.23, 0.01, 1, 1), opacity 0.5s ease;
 }
 
 .frame_bg {
@@ -118,8 +118,9 @@ body {
   position: relative;
 }
 
-.image, .video,
-.text-card  {
+.image,
+.video,
+.text-card {
   flex-basis: calc((1vh + 1vw) * 20);
 }
 
@@ -139,7 +140,6 @@ body {
   border-radius: 50%;
   border: 0.3rem solid rgba(54, 53, 53, 0.459);
 }
-
 
 .next-slide {
   right: 0;
@@ -167,4 +167,3 @@ video {
   height: 100%;
   object-fit: contain;
 }
-
